@@ -36,7 +36,9 @@ Code will come soon!
 
 *The overview of the proposed model. This is a dual-stream encoder-decoder architecture with a very simple and straightforward form. Note that the dashed line denotes an optional path for the decoder. In our model, the CMIU4 only contains two inputs $f^{4}_{rgb}$ and $f^{4}_{d/t}$ and $\hat{f}^{4}_{rgb-d/t}=\tilde{f}^{4}_{rgb-d/t}$. The feature $f^{i+1}_{rgb-d/t}$ exists in CMIU1-3, which is upsampled using bilinear interpolation in the 2D form.*
 
+<div align="center">
 <img src="./assets/ptre.jpg" width="30%">
+</div>
 
 *Patch-wise token re-embedding (PTRE). Before matrix multiplication, the parameter-free PTRE is used to reshape features. Thus, pixel-wise tokens are aggregated and converted into patch-wise tokens.*
 
@@ -46,12 +48,16 @@ Code will come soon!
 
 PySODEvalToolkit: A Python-based Evaluation Toolbox for Salient Object Detection and Camouflaged Object Detection: <https://github.com/lartpang/PySODEvalToolkit>
 
+<div align="center">
 <img src="./assets/flops-params-fps.jpg" width="50%">
+</div>
 
 ![](./assets/rgbd-results-0.jpg)
 
 ![](./assets/rgbd-results-1.jpg)
 
+<div align="center">
 <img src="./assets/rgbt-results.jpg" width="50%">
+</div>
 
 ![](./assets/prfm.jpg)
