@@ -8,6 +8,10 @@
 [![](https://img.shields.io/badge/IEEE-Paper-red?style=flat-square)](https://ieeexplore.ieee.org/document/10015667)
 [![](https://img.shields.io/badge/Page-Project-pink?style=flat-square)](https://lartpang.github.io/docs/caver.html)
 
+<div align="center">
+<img src="./assets/caver.jpg">
+</div>
+
 ```
 @article{CAVER-TIP2023,
   author={Pang, Youwei and Zhao, Xiaoqi and Zhang, Lihe and Lu, Huchuan},
